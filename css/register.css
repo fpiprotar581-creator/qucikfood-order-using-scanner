@@ -1,0 +1,68 @@
+@import url("login.css");
+
+.account-card {
+    padding: 16px;
+}
+
+.account-card h1 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.account-card .intro {
+    margin-bottom: 14px;
+}
+
+.account-card .field-group {
+    margin-top: 9px;
+}
+
+.account-submit {
+    width: 100%;
+    min-height: 39px;
+    margin-top: 14px;
+    border: 0;
+    border-radius: 6px;
+    background: #b83800;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    transition: background-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.account-submit:hover {
+    transform: translateY(-1px);
+    background: #982f00;
+    box-shadow: 0 5px 12px rgb(152 47 0 / 24%);
+}
+
+.account-submit:focus-visible,
+.login-prompt a:focus-visible {
+    outline: 3px solid #347bb5;
+    outline-offset: 3px;
+}
+
+.login-prompt {
+    margin: 14px 0 0;
+    color: #625b58;
+    font-size: 12px;
+    text-align: center;
+}
+
+.login-prompt a {
+    color: #15518a;
+    text-decoration: none;
+}
+
+.login-prompt a:hover {
+    color: #b83800;
+    text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+    .account-panel {
+        padding: 28px 20px;
+    }
+}
